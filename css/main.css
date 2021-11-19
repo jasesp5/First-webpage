@@ -1,0 +1,111 @@
+html{
+    font-family:monospace;
+}
+body {
+    margin: 0;
+
+}
+header{
+    background-color: #D3BE92;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 19rem;
+    margin-top: -4rem;
+    margin-bottom: -3rem;
+
+}
+header h1{
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+}
+
+header h3{
+     color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    margin-left: 27rem;
+    margin-top: -4rem;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+    
+.enlace{
+    color: white;
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-right: 5rem;
+}
+.enlace:hover{
+ background-color: white;
+ color: black;
+ 
+}
+
+
+aside img{
+    border-radius: 100rem;
+    height: 25rem;
+    width: 25rem;
+    margin-top: 5rem;
+
+}
+aside{
+    margin-right: 4rem;
+    text-align: center;
+    font-size: 1rem;
+
+}
+aside h2 {
+    margin-top: 3rem;
+}
+main {
+    display: flex;
+    margin: 0;
+}
+main section{
+    background-color: #D3BE92;
+    padding-bottom: 7.5rem;
+}
+article img {
+    top: 25rem;
+    position: absolute;
+    right: 1rem;
+    margin-right: -1rem;
+}
+
+article h3{
+    text-align:left;
+    font-size: 4rem;
+    margin: 1rem;
+    color: white;
+}
+
+ul{
+    margin-right: 28rem;
+}
+li h3{
+    color: black;
+    font-size:2rem
+   }
+li {
+    color: white;
+   }
+   footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+li p{
+  font-size: 1.5rem;
+}
